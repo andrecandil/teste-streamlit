@@ -692,6 +692,25 @@
       "create": true,
       "translate_cols": false,
       "target": "teste"
+    },
+    {
+      "folder": "TESTE 2",
+      "name": "TESTE 2",
+      "sheet_cols": [
+        "COL1",
+        "col2"
+      ],
+      "scheduler": "1 HOUR",
+      "load_type": "FULL",
+      "sw_database": "CALOURO",
+      "sw_tablename": "TABELA_1",
+      "sw_columns": [
+        "COL1",
+        "col2"
+      ],
+      "create": true,
+      "translate_cols": false,
+      "target": "teste"
     }
   ]
 }
