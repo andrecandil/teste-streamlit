@@ -757,6 +757,30 @@
       "merge_clause": "",
       "merge_cols": [],
       "sw_delete_clause": ""
+    },
+    {
+      "folder": "TESTE",
+      "name": "TESTE",
+      "sheet_cols": [
+        "COL1",
+        "COL2"
+      ],
+      "scheduler": "1 DAYS",
+      "load_type": "full",
+      "sw_database": "BICHO",
+      "sw_tablename": "TESTE",
+      "sw_columns": [
+        "COL1",
+        "COL2"
+      ],
+      "create": true,
+      "translate_cols": false,
+      "sheet_name": "",
+      "query_treat": "",
+      "target": "POS_GRADUADO.FINANCEIRO.TESTE",
+      "merge_clause": "",
+      "merge_cols": [],
+      "sw_delete_clause": ""
     }
   ]
 }
