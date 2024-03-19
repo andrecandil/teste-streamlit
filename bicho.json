@@ -1,25 +1,41 @@
 {
-    "files": [
-        {
-            "scheduler": "24 hours",
-            "load_type": "full",
-            "query_treat": "select upper(mes) mes, ano, dia, DATA, aprovador, upper(META) tipo_meta, meta from bicho.sharepoint.META_APROVADOR_IES",
-            "target": "VETERANO.DIMENSAO.DIM_APROVADOR_IES",
-            "sw_database": "BICHO",
-            "name": "Meta-Aprovador-IES-NOVOS-e-RENOVACAO",
-            "folder": "PLANEJAMENTO",
-            "create": true,
-            "sw_tablename": "META_APROVADOR_IES",
-            "sw_columns": [
-                "MES",
-                "ANO",
-                "DIA",
-                "DATA",
-                "APROVADOR",
-                "TIPOMETA",
-                "META"
-            ],
-            "translate_cols": false
-        }
-    ]
+  "files": [
+    {
+      "scheduler": "24 hours",
+      "load_type": "full",
+      "query_treat": "select upper(mes) mes, ano, dia, DATA, aprovador, upper(META) tipo_meta, meta from bicho.sharepoint.META_APROVADOR_IES",
+      "target": "VETERANO.DIMENSAO.DIM_APROVADOR_IES",
+      "sw_database": "BICHO",
+      "name": "Meta-Aprovador-IES-NOVOS-e-RENOVACAO",
+      "folder": "PLANEJAMENTO",
+      "create": true,
+      "sw_tablename": "META_APROVADOR_IES",
+      "sw_columns": [
+        "MES",
+        "ANO",
+        "DIA",
+        "DATA",
+        "APROVADOR",
+        "TIPOMETA",
+        "META"
+      ],
+      "translate_cols": false
+    },
+    {
+      "folder": "teste234",
+      "name": "teste234.csv",
+      "sheet_cols": [
+        "col1"
+      ],
+      "scheduler": "1 DAYS",
+      "load_type": "full",
+      "sw_database": "BICHO",
+      "sw_tablename": "teste",
+      "sw_columns": [
+        "col"
+      ],
+      "create": true,
+      "translate_cols": false
+    }
+  ]
 }
