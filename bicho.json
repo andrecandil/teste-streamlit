@@ -36,6 +36,26 @@
       ],
       "create": true,
       "translate_cols": false
+    },
+    {
+      "folder": "DIRETORIO/FINANCEIRO",
+      "name": "teste.csv",
+      "sheet_cols": [
+        "ALUNO",
+        " IDADE",
+        " MATRICULA"
+      ],
+      "scheduler": "1 DAYS",
+      "load_type": "full",
+      "sw_database": "BICHO",
+      "sw_tablename": "TESTE",
+      "sw_columns": [
+        "ALUNO",
+        " IDADE",
+        " MATRICULA"
+      ],
+      "create": true,
+      "translate_cols": false
     }
   ]
 }
