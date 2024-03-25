@@ -56,6 +56,24 @@
       ],
       "create": true,
       "translate_cols": false
+    },
+    {
+      "folder": "DIRETORIO/TESTE",
+      "name": "Teste com acentuação do André.csv",
+      "sheet_cols": [
+        "ALUNO",
+        " IDADE"
+      ],
+      "scheduler": "1 DAYS",
+      "load_type": "full",
+      "sw_database": "BICHO",
+      "sw_tablename": "TESTE",
+      "sw_columns": [
+        "ALUNO",
+        " IDADE"
+      ],
+      "create": true,
+      "translate_cols": false
     }
   ]
 }
