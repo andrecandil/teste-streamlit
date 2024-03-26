@@ -2206,7 +2206,7 @@
                 "col2"
             ],
             "create": true,
-            "translate_cols": false
+            "translate_cols": true
         }
     ]
 }
