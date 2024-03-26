@@ -2223,6 +2223,22 @@
             ],
             "create": true,
             "translate_cols": false
+        },
+        {
+            "folder": "teste",
+            "name": "teste.teste",
+            "sheet_cols": [
+                "col1"
+            ],
+            "scheduler": "1 DAYS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_tablename": "teste",
+            "sw_columns": [
+                "col1"
+            ],
+            "create": true,
+            "translate_cols": false
         }
     ]
 }
