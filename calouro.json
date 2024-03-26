@@ -2207,25 +2207,17 @@
             "translate_cols": false
         },
         {
-            "folder": "DIRETORIO",
-            "name": "MOTOR.csv",
+            "folder": "ARQUIVO_TESTE",
+            "name": "ARQUIVO_TESTE",
             "sheet_cols": [
-                "col1",
-                "col2",
-                "col3",
-                "col4",
-                "col5"
+                "ABC"
             ],
             "scheduler": "1 MONTHS",
             "load_type": "full",
             "sw_database": "CALOURO",
-            "sw_tablename": "tabela_de_testes_5",
+            "sw_tablename": "TABELA_TESTE",
             "sw_columns": [
-                "col1",
-                "col2",
-                "col3",
-                "col4",
-                "col5"
+                "ABC"
             ],
             "create": true,
             "translate_cols": false
