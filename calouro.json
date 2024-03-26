@@ -2191,7 +2191,7 @@
             "translate_cols": false
         },
         {
-            "folder": "FINANCEIRO/TESTE_NUMERO_FINAL",
+            "folder": "FINANCEIRO/TESTE_NUMERO4",
             "name": "arquivo.xlsx",
             "sheet_cols": [
                 "col1"
@@ -2199,7 +2199,7 @@
             "scheduler": "1 DAYS",
             "load_type": "full",
             "sw_database": "CALOURO",
-            "sw_tablename": "testesssss",
+            "sw_tablename": "MINHA_TABELA",
             "sw_columns": [
                 "col1"
             ],
