@@ -2207,17 +2207,19 @@
             "translate_cols": false
         },
         {
-            "folder": "ARQUIVO_TESTE",
-            "name": "ARQUIVO_TESTE",
+            "folder": "ter",
+            "name": "teste.xlsx",
             "sheet_cols": [
-                "ABC"
+                "col1",
+                "col2"
             ],
-            "scheduler": "1 MONTHS",
+            "scheduler": "1 DAYS",
             "load_type": "full",
             "sw_database": "CALOURO",
-            "sw_tablename": "TABELA_TESTE",
+            "sw_tablename": "teste",
             "sw_columns": [
-                "ABC"
+                "col1",
+                "col2"
             ],
             "create": true,
             "translate_cols": false
