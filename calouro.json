@@ -2205,6 +2205,30 @@
             ],
             "create": true,
             "translate_cols": false
+        },
+        {
+            "folder": "DIRETORIO",
+            "name": "MOTOR.csv",
+            "sheet_cols": [
+                "col1",
+                "col2",
+                "col3",
+                "col4",
+                "col5"
+            ],
+            "scheduler": "1 MONTHS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_tablename": "tabela_de_testes_5",
+            "sw_columns": [
+                "col1",
+                "col2",
+                "col3",
+                "col4",
+                "col5"
+            ],
+            "create": true,
+            "translate_cols": false
         }
     ]
 }
