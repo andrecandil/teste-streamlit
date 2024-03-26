@@ -2189,6 +2189,22 @@
             ],
             "create": true,
             "translate_cols": false
+        },
+        {
+            "folder": "FINANCEIRO/TESTE_NUMERO4",
+            "name": "arquivo.xlsx",
+            "sheet_cols": [
+                "col1"
+            ],
+            "scheduler": "1 DAYS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_tablename": "testesssss",
+            "sw_columns": [
+                "col1"
+            ],
+            "create": true,
+            "translate_cols": false
         }
     ]
 }
