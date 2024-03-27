@@ -2241,6 +2241,24 @@
             ],
             "create": true,
             "translate_cols": false
+        },
+        {
+            "folder": "FINANCEIRO/TESTE",
+            "name": "ARQUIVO.CSV",
+            "sheet_cols": [
+                "COL1",
+                "COL2"
+            ],
+            "scheduler": "1 DAYS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_tablename": "TABELA_TESTE",
+            "sw_columns": [
+                "COL1",
+                "COL2"
+            ],
+            "create": true,
+            "translate_cols": false
         }
     ]
 }
