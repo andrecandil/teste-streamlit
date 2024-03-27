@@ -2225,17 +2225,19 @@
             "translate_cols": false
         },
         {
-            "folder": "teste",
-            "name": "teste.teste",
+            "folder": "DIRETORIA_TESTE",
+            "name": "ARQUIVO.CSV",
             "sheet_cols": [
-                "col1"
+                "COL1",
+                "COL2"
             ],
             "scheduler": "1 DAYS",
             "load_type": "full",
             "sw_database": "CALOURO",
-            "sw_tablename": "teste",
+            "sw_tablename": "TABELA_TESTE",
             "sw_columns": [
-                "col1"
+                "COL1",
+                "COL2"
             ],
             "create": true,
             "translate_cols": false
