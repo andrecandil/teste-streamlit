@@ -1,4 +1,25 @@
 {
     "files": [
+        {
+            "folder": "FINANCEIRO/FP&A",
+            "name": "demonstrativos_rentabilidade.xlsx",
+            "sheet_cols": [
+                "data_referencia",
+                " rentabilidade",
+                " ies"
+            ],
+            "scheduler": "4 DAYS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_tablename": "RENTABILIDADE_FPA",
+            "sw_columns": [
+                "dt_referencia",
+                " VL_rentabilidade",
+                " ies"
+            ],
+            "create": true,
+            "translate_cols": false,
+            "sheet_name": "DB"
+        }
     ]
 }
