@@ -2243,8 +2243,8 @@
             "translate_cols": false
         },
         {
-            "folder": "FINANCEIRO/TESTE",
-            "name": "ARQUIVO.CSV",
+            "folder": "TESTE_DIRETORIA/DIRETORIO",
+            "name": "AAA.CSV",
             "sheet_cols": [
                 "COL1",
                 "COL2"
@@ -2252,7 +2252,7 @@
             "scheduler": "1 DAYS",
             "load_type": "full",
             "sw_database": "CALOURO",
-            "sw_tablename": "TABELA_TESTE",
+            "sw_tablename": "TESTE_TABELA",
             "sw_columns": [
                 "COL1",
                 "COL2"
