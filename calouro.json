@@ -2243,19 +2243,19 @@
             "translate_cols": false
         },
         {
-            "folder": "TESTE_DIRETORIA/DIRETORIO",
-            "name": "AAA.CSV",
+            "folder": "teste",
+            "name": "teste",
             "sheet_cols": [
-                "COL1",
-                "COL2"
+                "col1",
+                "col2"
             ],
-            "scheduler": "1 DAYS",
+            "scheduler": "1 HOURS",
             "load_type": "full",
             "sw_database": "CALOURO",
-            "sw_tablename": "TESTE_TABELA",
+            "sw_tablename": "teste",
             "sw_columns": [
-                "COL1",
-                "COL2"
+                "col1",
+                "col2"
             ],
             "create": true,
             "translate_cols": false
