@@ -2241,6 +2241,22 @@
             ],
             "create": true,
             "translate_cols": false
+        },
+        {
+            "folder": "financeiro/teste",
+            "name": "teste.csv",
+            "sheet_cols": [
+                "col1"
+            ],
+            "scheduler": "1 MONTHS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_tablename": "teste",
+            "sw_columns": [
+                "col1"
+            ],
+            "create": true,
+            "translate_cols": false
         }
     ]
 }
