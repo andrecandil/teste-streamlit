@@ -2243,19 +2243,19 @@
             "translate_cols": false
         },
         {
-            "folder": "teste",
-            "name": "teste",
+            "folder": "TESTE",
+            "name": "ARQUIVO.CSV",
             "sheet_cols": [
-                "col1",
-                "col2"
+                "COL1",
+                "COL2"
             ],
-            "scheduler": "1 HOURS",
+            "scheduler": "1 DAYS",
             "load_type": "full",
             "sw_database": "CALOURO",
-            "sw_tablename": "teste",
+            "sw_tablename": "TESTE_TABELA",
             "sw_columns": [
-                "col1",
-                "col2"
+                "COL1",
+                "COL2"
             ],
             "create": true,
             "translate_cols": false
