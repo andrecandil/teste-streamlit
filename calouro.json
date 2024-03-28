@@ -1,27 +1,4 @@
 {
     "files": [
-        {
-            "folder": "FINANCEIRO/FP&A",
-            "name": "rentabilidade_anual.xlsx",
-            "sheet_cols": [
-                "data_referencia",
-                "rentabilidade",
-                "produto",
-                "ies"
-            ],
-            "scheduler": "3 DAYS",
-            "load_type": "full",
-            "sw_database": "CALOURO",
-            "sw_tablename": "RENTABILIDADE_FPA_ANUAL",
-            "sw_columns": [
-                "dt_referencia",
-                "VL_rentabilidade",
-                "NM_produto",
-                "ies"
-            ],
-            "create": true,
-            "translate_cols": false,
-            "sheet_name": "dados"
-        }
     ]
 }
