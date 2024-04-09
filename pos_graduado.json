@@ -170,13 +170,38 @@
             "create": false,
             "sw_tablename": "MIGRACAO_TABELAS",
             "sw_columns": [
-              "NM_DATABASE",
-              "NM_SCHEMA",
-              "TABLE_NAME",
-              "TABLE_TYPE",
-              "FLG_MIGRADA"
+                "NM_DATABASE",
+                "NM_SCHEMA",
+                "TABLE_NAME",
+                "TABLE_TYPE",
+                "FLG_MIGRADA"
             ],
             "translate_cols": false
+        },
+        {
+            "folder": "RISCO",
+            "name": "PDD_COMPLEMENTAR.xlsx",
+            "sheet_cols": [
+                "DATA_REFERENCIA",
+                "COMPRA_DE_CARTEIRA",
+                "ID_FUNDO",
+                "NM_FUNDO",
+                "PDD_COMPLEMENTAR"
+            ],
+            "scheduler": "1 MONTHS",
+            "load_type": "full",
+            "sw_database": "POS_GRADUADO",
+            "sw_tablename": "PDD_COMPLEMENTAR_EDUCRED",
+            "sw_columns": [
+                "DATA_REFERENCIA",
+                "COMPRA_DE_CARTEIRA",
+                "ID_FUNDO",
+                "NM_FUNDO",
+                "PDD_COMPLEMENTAR"
+            ],
+            "create": true,
+            "translate_cols": false,
+            "target": "POS_GRADUADO.RISCO.PDD_COMPLEMENTAR_EDUCRED"
         }
     ]
 }
