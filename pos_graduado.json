@@ -1,0 +1,182 @@
+{
+    "files": [
+        {
+            "scheduler": "24 hours",
+            "name": "Metas MKTP por grupo",
+            "folder": "MARKETPLACE",
+            "create": false,
+            "sheet_name": "Planilha1",
+            "sheet_columns": [
+                "DATA",
+                "GRUPO",
+                "GERENTE",
+                "META BUSCA",
+                "META VISUALIZACAO OFERTA",
+                "META CHECKOUT",
+                "META PEDIDOS GERADOS",
+                "META PEDIDOS PAGOS",
+                "META RECEITA",
+                "META TICKET MEDIO"
+            ],
+            "sw_database": "POS_GRADUADO",
+            "sw_schema": "COMERCIAL",
+            "sw_tablename": "METAS_MKTP_GRUPO",
+            "sw_columns": [
+                "DATA",
+                "GRUPO",
+                "GERENTE",
+                "META_BUSCA",
+                "META_VISUALIZACAO_OFERTA",
+                "META_CHECKOUT",
+                "META_PEDIDOS_GERADOS",
+                "META_PEDIDOS_PAGOS",
+                "META_RECEITA",
+                "META_TICKET_MEDIO"
+            ],
+            "translate_cols": false
+        },
+        {
+            "scheduler": "24 hours",
+            "name": "scores_meta_stepwise",
+            "folder": "RISCO",
+            "create": false,
+            "sheet_name": "SCORES_META",
+            "sheet_columns": [
+                "SEQ",
+                "SCORE_MIN",
+                "SCORE_MAX",
+                "FREQ",
+                "CATEGORIA",
+                "CAMPO_SCORE"
+            ],
+            "sw_database": "POS_GRADUADO",
+            "sw_schema": "RISCO",
+            "sw_tablename": "SCORES_NOVO_MODELO_RISCO",
+            "sw_columns": [
+                "SEQ",
+                "SCORE_MIN",
+                "SCORE_MAX",
+                "FREQ",
+                "CATEGORIA",
+                "CAMPO_SCORE"
+            ],
+            "translate_cols": false
+        },
+        {
+            "scheduler": "24 hours",
+            "name": "Extrato_Repasse_Garantido",
+            "folder": "FINANCEIRO/REPASSE_GARANTIDO",
+            "create": true,
+            "sw_database": "POS_GRADUADO",
+            "sw_schema": "FINANCEIRO",
+            "sw_tablename": "REPASSE_GARANTIDO",
+            "sw_columns": [
+                "ID_IES",
+                "CNPJ",
+                "NM_IES",
+                "IES_GRUPO",
+                "CPF",
+                "NOME",
+                "CONTRATO",
+                "SEMESTRE FINANCIADO",
+                "TIPO_ALUNO",
+                "CAMPUS_IE",
+                "NM_CURSO",
+                "NM_PRODUTO",
+                "VL_MENSALIDADE",
+                "QTD_MENSALIDADES",
+                "VL_FINANCIADO_PARCELA",
+                "SUBSIDIO_INADIMPLENCIA_PARCELA",
+                "VALOR_LIQUIDO_PARCELA",
+                "COMISSAO_PARCELA",
+                "REPASSE_PARCELA",
+                "PRESTACAO",
+                "MES_REFERENCIA"
+            ],
+            "translate_cols": false
+        },
+        {
+            "scheduler": "24 hours",
+            "folder": "MKT",
+            "name": "tipo_campanha_pago",
+            "create": false,
+            "sw_database": "POS_GRADUADO",
+            "sw_schema": "MARKETING",
+            "sw_tablename": "TIPO_CAMPANHA_PAGO",
+            "sw_columns": [
+                "CAMPAIGN",
+                "SOURCE",
+                "MEDIUM",
+                "CONCAT",
+                "TIPO"
+            ],
+            "sheet_name": "DE-PARA",
+            "translate_cols": false
+        },
+        {
+            "scheduler": "24 hours",
+            "name": "Gestão-de-Carteira",
+            "folder": "PLANEJAMENTO",
+            "create": true,
+            "sheet_name": "RVE",
+            "sheet_columns": [
+                "RVE",
+                "Grupo da Instituição",
+                "ID da Instituição"
+            ],
+            "sw_columns": [
+                "NOME_RVE",
+                "GRUPO_INSTITUICAO",
+                "ID_INSTITUICAO"
+            ],
+            "sw_tablename": "DIM_RVE",
+            "sw_database": "POS_GRADUADO",
+            "sw_schema": "COMERCIAL",
+            "translate_cols": false
+        },
+        {
+            "scheduler": "24 hours",
+            "name": "Tabelas não utilizadas 180D",
+            "folder": "DADOS",
+            "create": true,
+            "sheet_name": "TABELAS NÃO UTILIZADAS 180D",
+            "sheet_columns": [
+                "DATABASE",
+                "SCHEMA",
+                "NOME TABELA",
+                "TIPO TABELA",
+                "DELETAR?",
+                "DATA CARGA"
+            ],
+            "sw_columns": [
+                "NM_DATABASE",
+                "NM_SCHEMA",
+                "NM_TABELA",
+                "DS_TIPO_TABELA",
+                "FLG_DELETAR",
+                "DT_CARGA"
+            ],
+            "sw_tablename": "TB_NAO_UTILIZADAS_180D",
+            "sw_database": "POS_GRADUADO",
+            "sw_schema": "DADOS",
+            "translate_cols": false
+        },
+        {
+            "scheduler": "1 day",
+            "sw_database": "POS_GRADUADO",
+            "sw_schema": "DADOS",
+            "name": "Migração tabelas - Nova arquitetura",
+            "folder": "DADOS",
+            "create": false,
+            "sw_tablename": "MIGRACAO_TABELAS",
+            "sw_columns": [
+              "NM_DATABASE",
+              "NM_SCHEMA",
+              "TABLE_NAME",
+              "TABLE_TYPE",
+              "FLG_MIGRADA"
+            ],
+            "translate_cols": false
+        }
+    ]
+}
