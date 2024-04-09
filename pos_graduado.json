@@ -202,6 +202,22 @@
             "create": true,
             "translate_cols": false,
             "target": "POS_GRADUADO.RISCO.PDD_COMPLEMENTAR_EDUCRED"
+        },
+        {
+            "folder": "TESTE1",
+            "name": "TESTE1",
+            "sheet_cols": [
+                "TESTE"
+            ],
+            "scheduler": "1 HOURS",
+            "load_type": "full",
+            "sw_database": "POS_GRADUADO",
+            "sw_tablename": "TESTE1",
+            "sw_columns": [
+                "TESTE"
+            ],
+            "create": true,
+            "translate_cols": false
         }
     ]
 }
