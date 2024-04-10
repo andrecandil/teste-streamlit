@@ -20,6 +20,23 @@
             "create": true,
             "translate_cols": false,
             "sheet_name": "DB"
+        },
+        {
+            "folder": "TESTE42",
+            "name": "TESTE42",
+            "sheet_cols": [
+                "TESTE"
+            ],
+            "scheduler": "1 MONTHS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_schema": "TESTE",
+            "sw_tablename": "TESTE",
+            "sw_columns": [
+                "TESTE"
+            ],
+            "create": true,
+            "translate_cols": false
         }
     ]
 }
