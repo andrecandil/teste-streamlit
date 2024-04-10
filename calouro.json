@@ -37,6 +37,27 @@
             ],
             "create": true,
             "translate_cols": false
+        },
+        {
+            "folder": "TESTE",
+            "name": "TESTE",
+            "sheet_cols": [
+                "COL1",
+                "COL2"
+            ],
+            "scheduler": "1 HOURS",
+            "load_type": "full",
+            "sw_database": "CALOURO",
+            "sw_schema": "SHAREPOINT",
+            "sw_tablename": "TESTE",
+            "sw_columns": [
+                "COL2",
+                "COL1"
+            ],
+            "create": true,
+            "translate_cols": false,
+            "target": "TABELA.FINAL.TESTE",
+            "sheet_name": "TESTE"
         }
     ]
 }
